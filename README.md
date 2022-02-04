@@ -1,7 +1,7 @@
 # Pretty Weather App
 
 > This app offers users a quick way to check weather data for any location in the world. 
-> The specific data provided by the app includes the city/town and country as well as the current temperature and humity of the location typed in by the user. 
+> The specific data provided by the app includes the city/town and country as well as the current temperature and humidity of the location typed in by the user. 
 
 ## App Screenshot
 ![](https://github.com/BenjaminSemah/pretty-weather/blob/dev/prettyweather.gif)
