@@ -42,13 +42,8 @@ input:focus {
   outline: 2px solid rgb(255, 255, 255);
 }
 
-.submit-btn:hover {
-  outline: 2px solid rgb(218, 114, 44);
-}
-
 ::placeholder,
-input[type="text"]
- {
+input[type="text"] {
   text-align: center;
   font-size: 1.1em;
   color: rgb(218, 114, 44);
@@ -61,9 +56,11 @@ input[type="text"]
   font-size: 1.1em;
   background-color: rgb(218, 114, 44);
   border: none;
-  border-radius: ;
 }
 
+.submit-btn:hover {
+  outline: 2px solid rgb(218, 114, 44);
+}
 
 .weather-info {
   color: white;
@@ -95,11 +92,11 @@ input[type="text"]
 
 .description {
   font-size: 50px;
-} 
+}
 
 .city-and-country {
   font-size: 30px;
-} 
+}
 
 .humidity {
   font-size: 20px;

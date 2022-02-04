@@ -8,13 +8,12 @@ export const getWeatherInfo = async (location) => {
   const responseInfo = await response.json();
 
   const city = responseInfo.location.name;
-  const country = responseInfo.location.country;
+  const { country } = responseInfo.location;
   const temperature = responseInfo.current.temp_c;
-  const humidity = responseInfo.current.humidity;
-  const description = responseInfo.current.condition.text
+  const { humidity } = responseInfo.current;
+  const description = responseInfo.current.condition.text;
 
-  const weatherHTML =
-    `
+  const weatherHTML = `
     <div class="temperature">
       <span class="temp-figure">${temperature}</span>
       <span class="temp-symbol">o</span>
@@ -25,6 +24,6 @@ export const getWeatherInfo = async (location) => {
       <p class="city-and-country">${city}, ${country}</p>
     </div>
     <p class="humidity">Humidity: ${humidity}%</p>
-    `
+    `;
   weatherInfo.innerHTML = weatherHTML;
-}
+};
