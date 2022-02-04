@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./assets/backgroundImg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  padding-top: 25px;
+  text-shadow: 3px 1px 5px rgb(218, 114, 44);
+  color: rgb(248, 245, 245);
+  width: 350px;
+  margin: 10px auto;
+  font-size: 2.5em;
+}
+
+.form-card {
+  margin: 25px auto;
+  width: 50%;
+  max-width: 300px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  max-width: 300px;
+}
+
+input {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+input:focus {
+  outline: 2px solid rgb(255, 255, 255);
+}
+
+.submit-btn:hover {
+  outline: 2px solid rgb(218, 114, 44);
+}
+
+::placeholder,
+input[type="text"]
+ {
+  text-align: center;
+  font-size: 1.1em;
+  color: rgb(218, 114, 44);
+}
+
+.submit-btn {
+  padding: 8px;
+  font-weight: bold;
+  color: rgb(245, 245, 245);
+  font-size: 1.1em;
+  background-color: rgb(218, 114, 44);
+  border: none;
+  border-radius: ;
+}
+
+
+.weather-info {
+  color: white;
+  font-size: 2.5em;
+  background-color: rgba(218, 113, 44, 0.397);
+  width: 80%;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.temperature {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.temp-figure,
+.temp-C {
+  font-size: 2.5em;
+}
+
+.description,
+.humidity,
+.location,
+.city-and-country {
+  margin: 5px;
+  padding-bottom: 5px;
+}
+
+.description {
+  font-size: 50px;
+} 
+
+.city-and-country {
+  font-size: 30px;
+} 
+
+.humidity {
+  font-size: 20px;
+  padding-bottom: 30px;
+}

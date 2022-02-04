@@ -7,3 +7,4 @@ submitBtn.addEventListener('click', () => {
   getWeatherInfo(userInput.value);
   userInput.value = '';
 })
+

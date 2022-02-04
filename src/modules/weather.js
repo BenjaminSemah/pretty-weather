@@ -18,13 +18,13 @@ export const getWeatherInfo = async (location) => {
     <div class="temperature">
       <span class="temp-figure">${temperature}</span>
       <span class="temp-symbol">o</span>
-      <span class="temp-symbol">C</span>
+      <span class="temp-C">C</span>
     </div>
     <p class="description">${description}</p>
-    <p class="humidity">Humidity: ${humidity}</p>
     <div class="location">
       <p class="city-and-country">${city}, ${country}</p>
     </div>
+    <p class="humidity">Humidity: ${humidity}%</p>
     `
   weatherInfo.innerHTML = weatherHTML;
 }
