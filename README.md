@@ -1,22 +1,39 @@
-# Webpack Template
+# Pretty Weather App
 
-> This is a webpack template that you can use to kickstart your next web development project.
-With this template, you don't need to go through the ardous task of setting up webpack from scratch. 
+> This app offers users a quick way to check weather data for any location in the world. 
+> The specific data provided by the app includes the city/town and country as well as the current temperature and humity of the location typed in by the user. 
 
-## What is Webpack?
-"Webpack is an open-source JavaScript module bundler. It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included." To learn more about webpack, [read the official documentation](https://webpack.js.org/guides/)
+## App Screenshot
+![](https://github.com/BenjaminSemah/pretty-weather/blob/dev/prettyweather.gif)
 
-## How to use this template.
-#### All it takes is one click to use this template. Use the link below
-[Webpack Template for your next project](https://github.com/BenjaminSemah/webpack-template/generate)
+## Live Demo
+[Live Demo Link](https://prettyweather.netlify.app/)
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- Webpack
+
+### To get a local copy, run the following steps:
+
+- Clone the repository with `git@github.com:BenjaminSemah/pretty-weather.git`
+- Navigate to the folder `cd pretty-weather`
+- Open the project with your code editor
+- Run `npm install` to install all dependencies
+- Run `npm start` and go to `http://localhost:8080//` to launch the server.
 
 ## Author
+
 👤 **Benjamin Semah**
 
 - GitHub: [Benjamin Semah](https://github.com/BenjaminSemah)
 - Twitter: [Benjamin Semah](https://twitter.com/BenjaminSemah)
 - LinkedIn: [Benjamin Semah](https://www.linkedin.com/in/benjaminsemah/)
 
+## Acknowledgment
+To the [weatherapi.com](https://www.weatherapi.com/) website for the Weather API.
 
 ## Show your support
 
