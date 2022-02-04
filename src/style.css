@@ -42,7 +42,12 @@ input:focus {
   outline: 2px solid rgb(255, 255, 255);
 }
 
-::placeholder,
+::placeholder {
+  text-align: center;
+  font-size: 1.1em;
+  color: rgba(218, 114, 44, 0.7);
+}
+
 input[type="text"] {
   text-align: center;
   font-size: 1.1em;
