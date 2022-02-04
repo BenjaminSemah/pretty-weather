@@ -1,0 +1,6 @@
+.hello {
+  color: red;
+  background: url("./assets/webpack-logo.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
