@@ -4,7 +4,7 @@ const weatherInfo = document.querySelector('.weather-info');
 const apiKey = 'a84a2759df96484db9f140443220402';
 
 export const getWeatherInfo = async (location) => {
-  const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`);
+  const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`);
   const responseInfo = await response.json();
 
   const city = responseInfo.location.name;
